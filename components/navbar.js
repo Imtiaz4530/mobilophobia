@@ -31,12 +31,10 @@ return (
           </Box>
 
           <Box sx={{ marginRight: 2, display: { xs: 'none', sm: 'block' } }}>
-              <Link className='global-link' href={`/orders`}>
                   <Button sx={{ color: '#4b7fcb', display: "flex", flexDirection: "column", gap: 1  }}> 
                         <ShoppingCartIcon />
                         <Typography sx={{ color: "#4b7fcb", fontSize: 14, textAlign: 'center', flexGrow: 1, display: { xs: 'none', sm: 'block' } }}> Order </Typography>
                   </Button>
-              </Link>
           </Box>
 
           <Box sx={{ marginRight: 2, display: { xs: 'none', sm: 'block' } }}>
