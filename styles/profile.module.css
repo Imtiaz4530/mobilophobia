@@ -1,0 +1,124 @@
+.container{
+    margin-top: 80px !important;
+    width: 1610px;
+    height: 700px;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 710px 900px;
+}
+
+.container1{
+    margin-top: 80px !important;
+    width: 1610px;
+    height: 520px;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: -100px;
+    background-color: #fdedeb;
+}
+
+.avater1{
+    border-radius: 50%;
+}
+
+.info{
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+.btns{
+    display: flex;
+    gap: 350px;
+}
+
+.editBTN{
+    margin-top: 50px;
+    background-color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.editBTN:hover{
+    background-color: black !important;
+    box-shadow: none !important;
+}
+
+.btnBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 45px;
+}
+
+.saveBTN{
+    width: 50px;
+    height: 30px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.createBTN{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.createBTN:hover{
+    background-color: black !important;
+    box-shadow: none !important;
+}
+
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 550px;
+    gap: 20px 40px;
+    margin: auto 0;
+}
+
+.resiterBTN{
+    margin-top: 30px;
+    width: 180px;
+    background: black;
+}
+
+.resiterBTN:hover {
+    background-color: black !important;
+    box-shadow: none !important;
+}
+
+
+
+/* address */
+
+.addressBTN{
+    margin-top: 10px;
+    width: 122px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: black;
+}
+
+.addressBTN:hover {
+    background-color: black !important;
+    box-shadow: none !important;
+}

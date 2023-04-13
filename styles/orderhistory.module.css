@@ -1,0 +1,35 @@
+.container{
+    margin-top: 81px !important;
+    margin: auto;
+    max-height: 100%;
+    min-height: 500px;
+    width: 1610px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.typo1{
+    color: #888;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.noitem{
+    width: 1610px;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+}
+
+.orderCard{
+    width: 1610px;
+    height: 350px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.image{
+    padding-bottom: 20px;
+}
+

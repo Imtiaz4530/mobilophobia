@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 410px 1200px;
+    background-color: white;
+    margin-top: 100px;
+    border: 1px solid #ddd;
+}
+
+.logo{
+    margin: auto;
+}
+
+.imageSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    width: 330px;
+    height: 100%;
+    background-color: #F9F9F9;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 298px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.img{
+    width: 180px !important;
+    height: 200px !important;
+}
+
+.card:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}

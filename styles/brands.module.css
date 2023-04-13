@@ -1,0 +1,133 @@
+.container{
+    width: 1610px;
+    padding: 30px 0;
+    margin-top: 81px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.brandImage{
+    width: 1000px;
+    margin: auto;
+    margin-top: 35px !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Brand_Item */
+
+.itemContainer{
+    margin-top: 81px !important;
+    width: 1610px;
+    max-height: 100%;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 270px 1340px;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-bottom: 50px;
+}
+
+.filter{
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.main{
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    width: 1340px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.upperCount{
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.upperCount1{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.products{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.noitem{
+    width: 1340px;
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+}
+
+.productCard{
+    width: 312px;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    padding-bottom: 20px;
+}
+
+.details{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 45px;
+    gap: 10px;
+}
+
+.ratingContainer{
+    display: flex;
+}
+
+
+.priceBox{
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconBox{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid #888;
+}
+
+.icon{
+    cursor: pointer;
+}

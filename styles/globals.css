@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.global-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    border-bottom: 1px solid #888 !important;
+    box-shadow: none !important;
+}
+
+.kahda{
+    margin-top: 80px;
+}
+
+/* swiper js in home */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+
+.chechBox{
+    width: 1000px;
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px !important;
+    margin: auto;
+}
+
+
+

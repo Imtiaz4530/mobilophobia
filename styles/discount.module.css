@@ -1,0 +1,52 @@
+.container{
+    border: 1px solid #ddd;
+    margin-top: 80px;
+    padding: 20px 0;
+    padding-bottom: 80px;
+}
+
+.cardContainer{
+    margin-top: 40px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: auto auto auto auto auto; 
+    justify-content: center;
+
+}
+
+/* card */
+
+.card{
+    width: 250px;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    margin-bottom: 20px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.price{
+    width: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratingContainer{
+    display: flex;
+}
+.card:hover{
+    background: #f7f7f7;
+    cursor: pointer;
+}

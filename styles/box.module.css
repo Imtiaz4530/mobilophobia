@@ -1,0 +1,40 @@
+.dark{
+    width: 1500px;
+    height: 40px;
+    background-color: #EFF2F4;
+    border: 1px solid #E0E7E9;
+    display: grid;
+    grid-template-columns: 250px 1250px;
+}
+
+.dark .qus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.light{
+    width: 1500px;
+    height: 40px;
+    background-color: #F6F9FB;
+    border: 1px solid #E0E7E9;
+    display: grid;
+    grid-template-columns: 250px 1250px;
+}
+
+.light .qus, .ans {    
+    padding-left: 30px;
+}
+
+.qus{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E0E7E9;
+}
+
+.ans{
+    display: flex;
+    align-items: center;
+    color: #4e4e4e !important;
+}
